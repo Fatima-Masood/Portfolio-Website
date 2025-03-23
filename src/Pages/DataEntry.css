@@ -1,0 +1,137 @@
+/* DataEntry.css */
+.all{
+  background: linear-gradient(rgba(72, 68, 76, 0.9), rgba(43, 31, 58, 0.9));
+  display: flex;
+}
+.data-entry-container {
+    background: #9e90a5;
+    margin: 2rem auto;
+    padding: 2rem 5rem;
+    max-width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    border-radius: 3rem;
+  }
+  
+  .data-entry-container h1 {
+    background: linear-gradient(rgba(163, 163, 163, 0.9), rgba(81, 60, 107, 0.9));
+    padding: 1rem;
+    text-align: center;
+    color: #2d093e;
+    margin-bottom: 2rem;
+  }
+  
+  .data-entry-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .data-entry-container section {
+    background-color: #735d7d;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data-entry-container h2 {
+    color: #3b3140;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .data-entry-container input[type="text"],
+  .data-entry-container textarea {
+    width: 100%;
+    max-width: 38rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .data-entry-container input[type="text"]:focus,
+  .data-entry-container textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+  }
+  
+  .data-entry-container textarea {
+    min-height: 100px;
+    max-width: 38rem;
+    resize: vertical;
+  }
+  
+  .data-entry-container button {
+    background-color: #5f5260;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .data-entry-container button:hover {
+    background-color: #4c4f51;
+  }
+  
+  .data-entry-container button[type="submit"] {
+    background-color: #2e4939;
+    align-self: center;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+  }
+  
+  .data-entry-container button[type="submit"]:hover {
+    background-color: #3c4f44;
+  }
+  
+  .project-list,
+  .social-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+  }
+  
+  .project-item,
+  .social-item {
+    background-color: #8d798e;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .project-item h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .social-item p {
+    margin: 0;
+  }
+  
+  .add-section {
+    background-color: #8d798e;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .data-entry-container {
+      padding: 1rem;
+    }
+  }
